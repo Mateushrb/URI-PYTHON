@@ -2,7 +2,7 @@
 I = 1
 J = 7
 
-# Estrutura de repetição com saída
+# Estruturas de repetição com saída
 for i in range(0, 5, 1):
     for l in range(0, 3, 1):
         print("I=%i J=%i" %(I, J))
