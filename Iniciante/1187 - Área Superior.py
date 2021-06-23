@@ -26,8 +26,10 @@ for i in range(0, 5, 1):
 
 # Impressão do resultado
 if operacao == 'S':
-    print(round(soma, 1))
+    soma = round(soma, 1)
+    print('%0.1f' %(soma))
 elif operacao == 'M':
-    print(round(soma/divisor, 1))
+    media = round(soma/divisor, 1)
+    print('%0.1f' %(media))
 else:
     pass
